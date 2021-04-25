@@ -36,7 +36,7 @@ alpha = input (colored('[>] Please set a Dork : ', 'green' ))
 query = alpha
 beta =  random.choice(TLD)   
 
-    
+
 for gamma in search(query, tld=beta, num=10 , stop=95 , pause=2): 
     print(colored ('[+] Found > ' ,'yellow')  + (gamma) )
 print(colored ('[+] Done  ' ,'green'))
