@@ -1,5 +1,5 @@
 #!/usr/bin/env/python3
-
+# -*- coding: utf-8 -*-
 # imports
 import asyncio
 from proxybroker import Broker
